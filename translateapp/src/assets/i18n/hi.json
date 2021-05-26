@@ -1,0 +1,12 @@
+{
+    "HOME"  : {
+        "title": "Mukhy",
+        "greeting": "Namaste {{name}}! ZG Multi Language Test App mae aapka Swagat hai",
+        "withcode": "<br><br>Aap <b>Shandaar</b> hai!",
+        "btn": "Chetaavanee Dikhaye"
+    },
+    "ALERT" :{
+        "header": "Truti",
+        "msg": "Aapake operation mein samasya thee!"
+    }
+}

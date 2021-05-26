@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> {{'HOME.title' | translate}} </ion-title>
+    <ion-button (click)="openLanguagePopver($event)" fill="clear" slot="end">
+      <ion-icon name="menu-outline" > </ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- With Pipe -->
+  {{'HOME.greeting' | translate:params }}
+
+  <!-- With Directive -->
+  <ion-text
+    color="secondary"
+    [translate]="'HOME.greeting'"
+    [translateParams]="params"
+  ></ion-text>
+
+  <!-- With Directive in HTML -->
+  <ion-text
+    color="secondary"
+    [innerHTML]="'HOME.withcode' | translate"
+  ></ion-text>
+
+  <ion-button expand="block" (click)="showAlert()">
+    {{ 'HOME.btn' | translate}}
+  </ion-button>
+</ion-content>

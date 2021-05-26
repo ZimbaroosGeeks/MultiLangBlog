@@ -1,0 +1,12 @@
+{
+    "HOME"  : {
+        "title": "Startseite",
+        "greeting": "Hallo {{name}}! Willkommen in der ZG Multi Language Test App",
+        "withcode": "<br><br>Du bist <b>episch<b>!",
+        "btn": "Alarm anzeigen"
+    },
+    "ALERT" :{
+        "header": "Fehler",
+        "msg": "Es gab ein Problem bei der Operation"
+    }
+}
